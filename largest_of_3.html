@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <h1>Largest of 3</h1>
+        <script>
+            var a = parseInt(prompt("Enter the 1st number"));
+            var b = parseInt(prompt("Enter the 2nd number"));
+            var c = parseInt(prompt("Enter the 3rd number"));
+            document.write("Numbers are "+a+" "+b+" "+c+"<br/>")
+            if(a>b)
+            {
+                if(a>c)
+                {
+                    document.write(a+" is greater");
+                }
+                else
+                {
+                    document.write(c+" is greater");
+                }
+            }
+            else
+            {
+               if(b>c)
+               {
+                document.write(b+" is greater");
+               } 
+               else
+               {
+                document.write(c+" is greater");
+               }
+            }
+        </script>
+    </body>
+</html>
